@@ -1,5 +1,5 @@
 [package]
-name = "eth_pairings_go_2537"
+name = "go_precimpiles_bindings"
 version = "0.2.0"
 authors = ["Alex Vlasov <alex.m.vlasov@gmail.com>"]
 edition = "2018"
