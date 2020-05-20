@@ -10,7 +10,7 @@ import (
 
 func Test(t *testing.T) {
 	input := make([]byte, 128)
-	res, err := vm.PrecompiledContractsBerlin[common.BytesToAddress([]byte{0x12})].Run(input)
+	res, err := vm.PrecompiledContractsIstanbul[common.BytesToAddress([]byte{0x06})].Run(input)
 	t.Log(hex.EncodeToString(res))
 	t.Log(err)
 }
